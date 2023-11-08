@@ -1,15 +1,15 @@
-##BOOK MANAGEMENT SYSTEM
+# BOOK MANAGEMENT SYSTEM
 Develop a RESTful API using Node.js for managing books
 
 APIs to be created:
 
-POST /books - function to add books;
-GET /books - function to get all books;
-GET /books-by-id - function to get book by ID;
-PUT /books - function to update book by ID;
-DELETE /books - function to delete book by ID;
+1.POST /books - function to add books;
+2.GET /books - function to get all books;
+3.GET /books-by-id - function to get book by ID;
+4.PUT /books - function to update book by ID;
+5.DELETE /books - function to delete book by ID;
 
-#PROJECT SETUP
+## PROJECT SETUP
 
 1. Firstly, initialize the git repository using git init .
 
@@ -37,7 +37,7 @@ DELETE /books - function to delete book by ID;
 
 6. Once the project is running successfully, deploy it on the github
 
-#DECISION MAKING
+## DECISION MAKING
 
 1. To use MongoDB as our Database.
 2. To use Mongoose ODM for easier handling of data in MongoDB.

@@ -136,7 +136,7 @@ exports.updateBookByID = async (req, res) => {
       }
     }
 
-    await Book.updateOne({ _id: req.body.id, isDeleted: false }, req.body, {
+    await Book.updateOne({ _id: req.body.book_id, isDeleted: false }, {$set: req.body}, {
       new: true,
     });
 
